@@ -5,7 +5,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrHXNlYgUMmLmCyYtjJM4W21GTA-6o9wQiNA&usqp=CAU");
+}
 header{
     display: flex;
     margin-bottom: 120px;
@@ -36,7 +38,7 @@ a{
     top: 45%;
     left: 50%;
     overflow: hidden;
-    border: 10px solid #ffffff;
+    /* border: 10px solid #ffffff; */
     border-radius: 8px;
     box-shadow: -1px 5px 15px black;
 }
@@ -48,9 +50,6 @@ h2{
     width: 100%;
     display: flex;
     animation: slide 16s infinite;
-}
-body{
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrHXNlYgUMmLmCyYtjJM4W21GTA-6o9wQiNA&usqp=CAU");
 }
 
 img{
