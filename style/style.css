@@ -29,7 +29,7 @@ a{
     color: black;
 }
 .image-container{
-    width: 500px;
+    width: 400px;
     height: auto;
     position: absolute;
     transform: translate(-50%,-50%);
@@ -48,7 +48,7 @@ a{
     animation: slide 16s infinite;
 }
 body{
-    background-color: gray;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrHXNlYgUMmLmCyYtjJM4W21GTA-6o9wQiNA&usqp=CAU");
 }
 
 img{
@@ -56,14 +56,17 @@ img{
 }
 main{
     display: grid;
-    width: 80vw;
+    width: 70vw;
     height: 100vh;
     grid-template-columns: repeat(3,1fr);
+}
+.categories ul li a{
+    color: white;
 }
 .categories{
     width: 100%;
     height: 100%;
-    background-color: blue;
+    /* background-color: blue; */
 }
 .categories ul li{
     margin-top: 20px;
