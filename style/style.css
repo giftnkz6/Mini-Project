@@ -40,7 +40,9 @@ a{
     border-radius: 8px;
     box-shadow: -1px 5px 15px black;
 }
-
+h2{
+    color: red;
+}
 /*Area of images*/
 .wrapper{
     width: 100%;
